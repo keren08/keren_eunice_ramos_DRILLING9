@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: rgb(13, 84, 84);
+}
+
+#nav{
+    display: flex;
+    padding: 2%;
+}
+
+.logo{
+    width: 10%;
+}
+
+#menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+#menu li{
+    list-style: none;
+    padding: 2%;
+}
+
+#menu li a{
+    color: azure;
+    font-weight: 900;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.titulo{
+    color: gray;
+    text-align: center;
+    margin: 3%;
+}
+
+.sub-titulo{
+    color: gray;
+    margin: 3% 0;
+}
+
+main{
+    padding: 4%;
+}
+
+.lista{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.lista a{
+    text-decoration: none;
+    color: blue;
+    width: 30%;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column ;
+    padding: 2%;
+    border-radius: 15px;
+    box-shadow: 2px 2px gray;
+}
+
+.card img{
+    width: 100%;
+}
+
+footer{
+    background-color: aqua;
+    padding: 2%;
+    text-align: center;
+    color: aliceblue;
+}
+
+.description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenido h1,p,h2{
+    margin: 3% !important;
+}
+
+.precio{
+    color: blue;
+}
